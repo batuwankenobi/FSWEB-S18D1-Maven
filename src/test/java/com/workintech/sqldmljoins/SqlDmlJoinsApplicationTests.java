@@ -29,7 +29,7 @@ class SqlDmlJoinsApplicationTests {
 
 	@DisplayName("Dram ve Hikaye türündeki kitapları listeleyin.")
 	@Test
-	void findBooksTest(){
+	void 3findBooksTest(){
 		assertEquals(kitapRepository.findBooks().size(), 3);
 	}
 
